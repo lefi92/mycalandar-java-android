@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/akatsuki"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#CCFFFFFF">
+        <TextView
+            android:id="@+id/EmailLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user"
+            style="@style/emailConnect"
+
+            />
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="logout"
+            android:text="Logout"
+            android:padding="1dp"
+            android:background="@color/primaryTextColor"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:paddingTop="250dp"
+        >
+        <Button
+            android:id="@+id/myFriendList"
+            style="@style/listbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Friend"
+            />
+    <Button
+        android:id="@+id/createEvent"
+        style="@style/listbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="addEvent"
+
+       />
+    <Button
+        android:id="@+id/listEvent"
+        style="@style/listbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lisEvent"
+       />
+    </LinearLayout>
+
+</LinearLayout>

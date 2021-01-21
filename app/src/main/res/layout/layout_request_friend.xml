@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/colorAccent">
+
+    <!-- <TextView
+         android:id="@+id/listId"
+         android:layout_width="411dp"
+         android:layout_height="wrap_content"
+         android:layout_margin="5dp"
+         android:text="id : ..."
+         android:textSize="25dp">
+
+     </TextView>-->
+
+    <TextView
+        android:id="@+id/friendRequest"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Title : ..."
+        android:textSize="25dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/requestAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept"></Button>
+    <Button
+        android:id="@+id/requestDecline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decline"></Button>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bk"
+    tools:context=".Register">
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="50sp"
+        android:layout_marginBottom="120dp"
+        style="@style/loginHeader"
+        android:layout_marginTop="60dp"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Passsword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        style="@style/loginButton"
+        android:text="Register"/>
+    <TextView
+        android:id="@+id/swipeLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="swipe to login"
+        android:textSize="15sp"
+        style="@style/parent"
+        android:layout_marginRight="20dp"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:gravity="end"/>
+</LinearLayout>
