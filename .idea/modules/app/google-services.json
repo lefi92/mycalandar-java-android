@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071433197632",
+    "firebase_url": "https://mycalandar-b44bf.firebaseio.com",
+    "project_id": "mycalandar-b44bf",
+    "storage_bucket": "mycalandar-b44bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071433197632:android:20d5e58d0e86814a9057a5",
+        "android_client_info": {
+          "package_name": "com.example.mycalandar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071433197632-b9a84bnkah3tg9tcua91uk6d9nmk8kql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycalandar",
+            "certificate_hash": "1458d95c02096d1572585937b8f99826de9b4b16"
+          }
+        },
+        {
+          "client_id": "1071433197632-tutemoibik998clgichuk9ca9uhl93k7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMiGwMjvt-IIEn039K_EZLl4dTyaqDCH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071433197632-tutemoibik998clgichuk9ca9uhl93k7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
